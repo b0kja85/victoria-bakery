@@ -64,3 +64,30 @@
     object-fit: cover;
     object-position: center;
 }
+
+/* Hero Content */
+
+.hero--headline {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.hero--headline h1 span {
+    display: block; /* Make spans block-level to create line breaks */
+    margin-top: 10px; /* Adjust the margin between spans as needed */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hero--HL-small {
+    font-size: 35px;
+    font-weight: 100;    
+}
+
+#hero--HL-large {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FAA440;
+}
