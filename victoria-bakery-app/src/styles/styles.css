@@ -69,7 +69,7 @@
 
 .hero--headline {
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 100%;
     color: white;
     text-align: center;
@@ -90,4 +90,46 @@
     font-size: 72px;
     font-weight: bold;
     color: #FAA440;
+}
+
+.hero--paragraph {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 150px;
+}
+
+.hero--paragraph p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.hero--shop-btn {
+    position: absolute;
+    width: 100%;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hero--shop-btn-container {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #420400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+.hero--shop-btn-container span {
+    margin-left: 10px;
 }
