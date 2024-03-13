@@ -77,7 +77,6 @@
 
 .hero--headline h1 span {
     display: block; /* Make spans block-level to create line breaks */
-    margin-top: 10px; /* Adjust the margin between spans as needed */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -97,7 +96,7 @@
     width: 100%;
     font-size: 20px;
     font-weight: 100;
-    margin-top: 150px;
+    bottom: 15%;
 }
 
 .hero--paragraph p {
@@ -112,10 +111,9 @@
 .hero--shop-btn {
     position: absolute;
     width: 100%;
-    margin-top: 190px;
+    bottom: 7%;
     display: flex;
     justify-content: center;
-    
 }
 .hero--shop-btn-container {
     padding: 10px 30px;
