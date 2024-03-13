@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #0B0B0D;
+    background-color: transparent;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
     position: fixed;
     width: 100%;
@@ -43,12 +43,12 @@
     list-style: none;
 }
 
-.navbar--left_menu li{
+.navbar--left_menu li {
     margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     color: white;
-    padding-right: 35px;
+    padding: 0px 35px;
 }
 
 /* Hero Image */
@@ -130,4 +130,41 @@
 }
 .hero--shop-btn-container span {
     margin-left: 10px;
+}
+
+
+/* Media Queries */
+
+/* Tablets*/
+/* Medium screens (small tablets) */
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+    .navbar--navbar {
+        height: 125px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        background-color: #0B0B0D;
+    }
+    .navbar--logo {
+        width: 115px;
+        margin-left: 0;
+    }
+
+    .navbar--left_menu {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .navbar--left_menu ul {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar--left_menu li {
+        margin-right: 0;
+
+        font-size: 18px;
+    }
 }
