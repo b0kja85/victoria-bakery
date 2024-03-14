@@ -105,7 +105,6 @@
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    padding: 5px 0;
 }
 
 .hero--shop-btn {
@@ -113,7 +112,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 0;
     bottom: 24vh;
     
 }
@@ -170,6 +168,7 @@
     .navbar--left_menu li {
         margin-right: 0;
     }
+    
     /* Hero Image */
     .hero--hero-image {
         position: relative;
@@ -182,11 +181,6 @@
     }    
     
     /* Hero Content */
-
-    .hero--headline {
-
-    }
-
     #hero--HL-small {
         font-size: 4vw;
     }
